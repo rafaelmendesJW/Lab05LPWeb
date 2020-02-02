@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Spotifly</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">  
+    <a class="navbar-brand" h1 mb-0 href="#">Spotifly</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSite">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/home">Início</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="entrar.html">entrar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/usuarios">inscrever-se</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Adicionar música</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#listadeMusicas">Listar músicas</a>
+            </li>
+
+        </ul>
+        <ul class="navbar navbar-nav ml-auto">
+            <li class="nav-item dropdown" >
+            <a class="nav-link dropdown-toggle" href"#" data-toggle="dropdown"  id="navDrop">
+                Social
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://www.facebook.com/junior.mendes.3154"> Facebook</a>
+                <a class="dropdown-item" href="https://www.instagram.com/juniormendess_/" >Instagram</a>
+                <a class="dropdown-item" href="https://twitter.com/rafaelmendesj" >Twitter</a>
+            </div>
+            </li>
+        </ul>
+        <form class="form-inline">
+             <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar...">
+             <button class="btn btn-dark" type="Submit">OK</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+
+  <div  id="carouselSite" class="carousel slide" data-ride="carousel">
+      
+    <ol class="carousel-indicators">
+        <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselSite" data-slide-to="1"></li>
+        <li data-target="#carouselSite" data-slide-to="2"></li>
+        <li data-target="#carouselSite" data-slide-to="3"></li>
+        <li data-target="#carouselSite" data-slide-to="4"></li>
+        <li data-target="#carouselSite" data-slide-to="5"></li>
+        
+        
+      </ol>
+    
+    <div class="carousel-inner">>
+        
+        <div class="carousel-item active">
+          
+            <img src="imagens/audience-1867754_1280.jpg" class="img-fluid" d-block>
+            <div class="carousel-caption">
+            <h3>Música</h3>
+            <p>"Depois do silêncio, aquilo que mais aproximadamente exprime o inexprimível é a música." (Aldous Huxley)</p>
+        </div>
+        
+        </div>
+       
+        <div class="carousel-item">
+            
+            <img src="imagens/band-691224_1280.jpg" class="img-fluid" d-block>
+            <div class="carousel-caption">
+                <h3>Música</h3>
+                <p>"Depois do silêncio, aquilo que mais aproximadamente exprime o inexprimível é a música." (Aldous Huxley)</p>
+            </div>
+       
+        </div>
+
+        <div class="carousel-item">
+            
+            <img src="imagens/bass-guitar-1841186_1280.jpg" class="img-fluid" d-block>
+            <div class="carousel-caption">
+                <h3>Música</h3>
+                <p>"Depois do silêncio, aquilo que mais aproximadamente exprime o inexprimível é a música." (Aldous Huxley)</p>
+            </div>
+       
+        </div>
+        
+        <div class="carousel-item">
+            
+            <img src="imagens/guitar-2276181_1280.jpg" class="img-fluid" d-block>
+            <div class="carousel-caption">
+                <h3>Música</h3>
+                <p>"Depois do silêncio, aquilo que mais aproximadamente exprime o inexprimível é a música." (Aldous Huxley)</p>
+            </div>
+       
+        </div>
+        
+        <div class="carousel-item">
+            
+            <img src="imagens/live-music-2219036_1280.jpg" class="img-fluid" d-block>
+            <div class="carousel-caption">
+                <h3>Música</h3>
+                <p>"Depois do silêncio, aquilo que mais aproximadamente exprime o inexprimível é a música." (Aldous Huxley)</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            
+            <img src="imagens/record-336626_1280.jpg" class="img-fluid" d-block>
+            <div class="carousel-caption">
+                <h3>Música</h3>
+                <p>"Depois do silêncio, aquilo que mais aproximadamente exprime o inexprimível é a música." (Aldous Huxley)</p>
+            </div>
+       
+        </div>
+    
+    </div>
+    <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+     <span class=carousel-control-prev-icon></span>
+     <span class="sr-only">Anterior</span>   
+    </a>
+    <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+        <span class=carousel-control-next-icon></span>
+        <span class="sr-only">Próximo</span>   
+    </a>
+ 
+</div>
+
+    <div class="container">
+        <div class="row">
+        <div class="col-12 text-center my-5"> 
+            <h1 class="display-5"> Seja bem-vindo!</h1>
+            <p>Curta o que a música pode te proporcionar.</p>
+            
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <nav id="navbarVertical" class="navbar navbar-light bg-dark">
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link"   href="#item1"> Rock</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item1-1"> Pink floyd</a>
+                            <a class="nav-link ml-3" href="#item1-2">Metallica</a>
+                        </nav>
+                        <a class="nav-link my-2"   href="#item2"> Hip-hop</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item2-1"> 2 Chainz</a>
+                            <a class="nav-link ml-3" href="#item2-2">a Firma</a>
+                        </nav>
+                        <a class="nav-link my-2"   href="#item3"> Sertanejo</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item3-1"> Jorge e Mateus</a>
+                            <a class="nav-link ml-3" href="#item3-2">Xitãozinho e Xororó</a>
+                        </nav>
+                    </nav>
+                </nav>
+
+            </div>
+            <div class="col-9">
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0"  class="scrollspySite">
+                    <h4 id="item1">Rock</h4>
+                    <p>Rock é um termo abrangente que define um gênero musical de música popular que se desenvolveu durante e após a década de 1950</p>
+                    <h4 id="item1-1">Rock</h4>
+                    <p>Rock é um termo abrangente que define um gênero musical de música popular que se desenvolveu durante e após a década de 1950</p>
+                     <h4 id="item1-2">Rock</h4>
+                    <p>Rock é um termo abrangente que define um gênero musical de música popular que se desenvolveu durante e após a década de 1950</p>
+
+
+
+                    <h5 id="item2">Hip-Hop</h5>
+                    <p>Hip hop é um gênero musical, com uma subcultura própria, iniciado durante a década de 1970, nas comunidades jamaicanas, latinas e afro-americanas da cidade de Nova Iorque.</p>
+                    <h5 id="item2-1">Hip-Hop</h5>
+                    <p>Hip hop é um gênero musical, com uma subcultura própria, iniciado durante a década de 1970, nas comunidades jamaicanas, latinas e afro-americanas da cidade de Nova Iorque.</p>
+                    
+                    <h5 d="item2-2">Sertanejo</h5>
+                    <p>Música sertaneja é um gênero musical do Brasil produzido a partir da década de 1910 por compositores urbanos, rurais e outros chamada genericamente de modas e emboladas cujo som da viola é predominante.</p>
+
+
+
+                    <h5 d="item3">Sertanejo</h5>
+                    <p>Música sertaneja é um gênero musical do Brasil produzido a partir da década de 1910 por compositores urbanos, rurais e outros chamada genericamente de modas e emboladas cujo som da viola é predominante.</p>
+
+                    <h5 id="item3-1">Hip-Hop</h5>
+                    <p>Hip hop é um gênero musical, com uma subcultura própria, iniciado durante a década de 1970, nas comunidades jamaicanas, latinas e afro-americanas da cidade de Nova Iorque.</p>
+                    
+                    <h5 d="item3-2">Sertanejo</h5>
+                    <p>Música sertaneja é um gênero musical do Brasil produzido a partir da década de 1910 por compositores urbanos, rurais e outros chamada genericamente de modas e emboladas cujo som da viola é predominante.</p>
+                
+                </div>
+            </div>
+
+
+        </div>    
+</div>
+
+<div class="container" id="listadeMusicas" >
+    <div class="row mb-5">
+        <div class="col-sm-3">
+            <div class="card my-5">
+                <img class="card-img-top" src="imagens/band-691224_1280.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Metallica</h4>
+                    <h6 class="card-subtitle"mb-2 text-muted>Master of Puppets</h6>
+                    <ul>
+                        <li>01.Battery</li>
+                         <li>02.Master Of Puppets</li>
+                         <li>03.The Thing That Should Not Be</li>
+                         <li>04.Welcome Home (Sanitarium)</li>  
+                         <li>05.Disposable Heroes</li> 
+                        <li>06.Leper Messiah</li> 
+                        <li>07.Orion</li>
+                        <li>08.Damage, Inc</li>
+                        <li></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card my-5">
+                <img class="card-img-top" src="imagens/band-691224_1280.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Metallica</h4>
+                    <h6 class="card-subtitle"mb-2 text-muted>Master of Puppets</h6>
+                    <ul>
+                        <li>01.Battery</li>
+                         <li>02.Master Of Puppets</li>
+                         <li>03.The Thing That Should Not Be</li>
+                         <li>04.Welcome Home (Sanitarium)</li>  
+                         <li>05.Disposable Heroes</li> 
+                        <li>06.Leper Messiah</li> 
+                        <li>07.Orion</li>
+                        <li>08.Damage, Inc</li>
+                        <li></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="col-sm-3">
+            <div class="card my-5">
+                <img class="card-img-top" src="imagens/band-691224_1280.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Metallica</h4>
+                    <h6 class="card-subtitle"mb-2 text-muted>Master of Puppets</h6>
+                    <ul>
+                        <li>01.Battery</li>
+                         <li>02.Master Of Puppets</li>
+                         <li>03.The Thing That Should Not Be</li>
+                         <li>04.Welcome Home (Sanitarium)</li>  
+                         <li>05.Disposable Heroes</li> 
+                        <li>06.Leper Messiah</li> 
+                        <li>07.Orion</li>
+                        <li>08.Damage, Inc</li>
+                        <li></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-sm-3">
+            <div class="card my-5">
+                <img class="card-img-top" src="imagens/band-691224_1280.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Metallica</h4>
+                    <h6 class="card-subtitle"mb-2 text-muted>Master of Puppets</h6>
+                    <ul>
+                        <li>01.Battery</li>
+                         <li>02.Master Of Puppets</li>
+                         <li>03.The Thing That Should Not Be</li>
+                         <li>04.Welcome Home (Sanitarium)</li>  
+                         <li>05.Disposable Heroes</li> 
+                        <li>06.Leper Messiah</li> 
+                        <li>07.Orion</li>
+                        <li>08.Damage, Inc</li>
+                        <li></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-sm-3">
+            <div class="card my-5">
+                <img class="card-img-top" src="imagens/band-691224_1280.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Metallica</h4>
+                    <h6 class="card-subtitle"mb-2 text-muted>Master of Puppets</h6>
+                    <ul>
+                        <li>01.Battery</li>
+                         <li>02.Master Of Puppets</li>
+                         <li>03.The Thing That Should Not Be</li>
+                         <li>04.Welcome Home (Sanitarium)</li>  
+                         <li>05.Disposable Heroes</li> 
+                        <li>06.Leper Messiah</li> 
+                        <li>07.Orion</li>
+                        <li>08.Damage, Inc</li>
+                        <li></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-3">
+            <div class="card my-5">
+                <img class="card-img-top" src="imagens/band-691224_1280.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Metallica</h4>
+                    <h6 class="card-subtitle"mb-2 text-muted>Master of Puppets</h6>
+                    <ul>
+                        <li>01.Battery</li>
+                         <li>02.Master Of Puppets</li>
+                         <li>03.The Thing That Should Not Be</li>
+                         <li>04.Welcome Home (Sanitarium)</li>  
+                         <li>05.Disposable Heroes</li> 
+                        <li>06.Leper Messiah</li> 
+                        <li>07.Orion</li>
+                        <li>08.Damage, Inc</li>
+                        <li></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-sm-3">
+            <div class="card my-5">
+                <img class="card-img-top" src="imagens/band-691224_1280.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Metallica</h4>
+                    <h6 class="card-subtitle"mb-2 text-muted>Master of Puppets</h6>
+                    <ul>
+                        <li>01.Battery</li>
+                         <li>02.Master Of Puppets</li>
+                         <li>03.The Thing That Should Not Be</li>
+                         <li>04.Welcome Home (Sanitarium)</li>  
+                         <li>05.Disposable Heroes</li> 
+                        <li>06.Leper Messiah</li> 
+                        <li>07.Orion</li>
+                        <li>08.Damage, Inc</li>
+                        <li></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-sm-3">
+            <div class="card my-5">
+                <img class="card-img-top" src="imagens/band-691224_1280.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Metallica</h4>
+                    <h6 class="card-subtitle"mb-2 text-muted>Master of Puppets</h6>
+                    <ul>
+                        <li>01.Battery</li>
+                         <li>02.Master Of Puppets</li>
+                         <li>03.The Thing That Should Not Be</li>
+                         <li>04.Welcome Home (Sanitarium)</li>  
+                         <li>05.Disposable Heroes</li> 
+                        <li>06.Leper Messiah</li> 
+                        <li>07.Orion</li>
+                        <li>08.Damage, Inc</li>
+                        <li></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
